@@ -1,14 +1,17 @@
 # Module-2-Challenge
 Module 2 submission repository
 
+The Excel file for this VBA script to run on is too large to upload to the github repository. I was told you would have a way to access it as a grader.
+
 All code was authored by me except for the following section: 
 
-"For i = 2 To LastRow
-    'If cell above is not equal
+    For i = 2 To LastRow
+        
     If ws.Cells(i - 1, 1).Value <> ws.Cells(i, 1).Value Then
         
         FirstValue = ws.Cells(i, 3).Value
-    End If"
+        
+    End If
 
 The above code was authored by ChatGPT and used to help me figure out how to find only the first value. In my original code I could not figure out how to do this one part of it so I was receiving the wrong values. 
 I resorted to using ChatGPT after posting in slack and receiving no response and staying for office hours and not finding a solution.
